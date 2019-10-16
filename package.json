@@ -1,0 +1,25 @@
+{
+  "name": "start-endpoint-imposter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Łukasz Makuch",
+  "license": "MIT",
+  "dependencies": {},
+  "peerDependencies": {
+    "endpoint-imposter": "0.x.x"
+  },
+  "jest": {
+    "globalSetup": "./jestGlobalSetup.js",
+    "globalTeardown": "./jestGlobalTeardown.js"
+  },
+  "devDependencies": {
+    "endpoint-imposter": "0.x.x",
+    "axios": "^0.19.0",
+    "jest": "^24.9.0",
+    "wait-for-expect": "^2.0.0"
+  }
+}
