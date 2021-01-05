@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "endpoint-imposter": "0.x.x",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "jest": "^24.9.0",
     "wait-for-expect": "^2.0.0"
   }
